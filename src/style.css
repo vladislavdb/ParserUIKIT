@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+    font-family: Inter, sans-serif;
+    color: #111418;
+}
+h1 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 120%;
+}
+h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 120%;
+}
+p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 160%;
+}
+/** { outline: 2px dotted red; }*/
+/** * { outline: 2px dotted green; }*/
+/** * * { outline: 2px dotted orange; }*/
+/** * * * { outline: 2px dotted blue; }*/
+/** * * * * { outline: 1px solid red; }*/
+/** * * * * * { outline: 1px solid green; }*/
+/** * * * * * * { outline: 1px solid orange; }*/
+/** * * * * * * * { outline: 1px solid blue; }*/
